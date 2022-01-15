@@ -231,7 +231,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Your Title</a>
+      <a class="navbar-brand" href="/">Chloe Blog</a>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
@@ -392,10 +392,6 @@
     }
 
     
-      #signature {/*signature*/
-        background-image: url('/img/signature/vincent-white.png');
-      }
-    
   </style>
   <!-- CDN: jsdelivr end -->
 
@@ -411,9 +407,9 @@
         <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
           
           <div class="site-heading">
-            <h1>Your Title</h1>
+            <h1>Chloe Blog</h1>
             <!--<hr class="small">-->
-            <span class="subheading">This is hexo theme</span>
+            <span class="subheading">This is My Blog.</span>
           </div>
           
         </div>
@@ -499,7 +495,7 @@ This LiveMyLife theme created by Vincent modified from the original Porter YenYu
   </a>
   
   <p class="post-meta" style="margin: 10px 0;">
-    Posted by Your Name on
+    Posted by Chloe on
     2020-04-17
   </p>
   <div class="tags">
@@ -538,7 +534,7 @@ Gitee 仓库地址：ht......
   </a>
   
   <p class="post-meta" style="margin: 10px 0;">
-    Posted by Your Name on
+    Posted by Chloe on
     2020-04-17
   </p>
   <div class="tags">
@@ -813,7 +809,7 @@ Gitee 仓库地址：ht......
         </ul>
         <p class="copyright text-muted">
           Copyright &copy;
-          Your Name
+          Chloe
           2022
           <br>
           Theme by
@@ -1283,5 +1279,20 @@ start: '#bbbbee', end: '#0085a1' } }; $('#tag_cloud a').tagcloud(); }) } </scrip
 
 
 		
-	</body>
+	<script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {
+            inlineMath: [ ["$","$"], ["\\(","\\)"] ],
+            skipTags: ['script', 'noscript', 'style', 'textarea', 'pre', 'code'],
+            processEscapes: true
+        }
+    });
+    MathJax.Hub.Queue(function() {
+        var all = MathJax.Hub.getAllJax();
+        for (var i = 0; i < all.length; ++i)
+            all[i].SourceElement().parentNode.className += ' has-jax';
+    });
+</script>
+<script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
+</body>
 </html>
